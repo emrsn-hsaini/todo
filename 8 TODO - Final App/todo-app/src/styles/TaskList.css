@@ -1,0 +1,32 @@
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s;
+}
+
+.task-list li.completed {
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+.task-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.task-list li.completed:hover {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+
+.task-list input[type="checkbox"] {
+  margin-right: 10px;
+}

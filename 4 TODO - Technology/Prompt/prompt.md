@@ -1,0 +1,2 @@
+Attach TodoAgileRequirements and TodoAgileRequirementsMVP files as context
+### For these requirements, what should be the technology stack for building a working MVP application. This application can be later enhanced to be production ready later.

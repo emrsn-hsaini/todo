@@ -1,0 +1,2 @@
+Attach TodoAgileRequirements file as context
+### I want to build an MVP in 1.5 hours. Please keep only the core requirements for building this MVP. Remove which cannot be implemented during this time. I do not need Security and Performance in MVP at all.

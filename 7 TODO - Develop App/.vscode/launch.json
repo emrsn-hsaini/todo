@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Debug All",
+            "configurations": ["Debug Backend", "Debug Frontend"]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "Debug Backend",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/backend/server.js",
+            "cwd": "${workspaceFolder}/backend",
+            "outFiles": ["${workspaceFolder}/backend/**/*.js"],
+            "sourceMaps": true,
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "Debug Frontend",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/todo-app/src",
+            "sourceMaps": true
+        }
+    ]
+}
